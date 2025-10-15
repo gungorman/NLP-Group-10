@@ -20,7 +20,8 @@ def load_reddit_comment_data(data_directory):
     # the method returns all the loaded Reddit comments
     return comments_data
 
-data_dir = r'C:\Users\gungo\OneDrive\Dokumente\GitHub\NLP-Group-10\stocks_comments.ndjson'
-reddit_data = load_reddit_comment_data(data_dir)
+data_dir_comments = r"C:\Users\gungo\OneDrive\Desktop\stocks_comments.ndjson"
+data_dir_sub = r"C:\Users\gungo\OneDrive\Desktop\stocks_submissions.ndjson"
+reddit_data = load_reddit_comment_data(data_dir_)
 print("Successfully loaded Reddit comments! Our dataset includes %d Reddit comments!" %len(reddit_data))
 print(data_dir)
